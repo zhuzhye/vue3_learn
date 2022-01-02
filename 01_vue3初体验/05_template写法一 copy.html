@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="app"></div>
-  <template>...............................................................................
+  <template id="my-app"> 
     <div>
       <h2>{{counter}}</h2>
       <button @click="counter+=1">+1</button>
@@ -18,6 +18,7 @@
   <script src="../js/vue.js"></script>
   <script>
     Vue.createApp({
+      template:"#my-app",
       data(){
         return{
           counter:0
