@@ -1,6 +1,6 @@
 <template>
-    <h2>App</h2>
-    <HelloWordVue></HelloWordVue>
+  <h2>App</h2>
+  <HelloWordVue></HelloWordVue>
 </template>
 
 <script>

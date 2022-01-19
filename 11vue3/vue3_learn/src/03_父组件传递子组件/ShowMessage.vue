@@ -8,8 +8,8 @@
 <script>
 export default {
   // props:['title','content']
- inheritAttrs:false,
- props: {
+  inheritAttrs: false,
+  props: {
     title: String,
     content: {
       type: String,
